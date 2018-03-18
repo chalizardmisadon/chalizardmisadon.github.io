@@ -1,0 +1,112 @@
+/* General font settings ===============================*/
+
+body {
+  font-family: 'Alegreya', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+/* Font settings =======================================*/
+
+.main-title {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Suez One', 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+}
+
+.main-subtitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Lalezar', 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+}
+
+.heading-white {
+  color: rgba(255, 255, 255, 1);
+}
+
+.paragraph-white {
+  color: rgba(255, 255, 255, 1);
+}
+
+.heading-black {
+  color: rgba(0, 0, 0, 1);
+}
+
+.paragraph-black {
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Responsive font-size ================================*/
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead h2 {
+  font-size: 1.5rem;
+}
+
+header.masthead p {
+  font-weight: 400;
+}
+
+section h2 {
+  font-size: 1.75rem;
+}
+
+section p {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.75rem;
+  }
+  section p {
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+  header.masthead h2 {
+    font-size: 2rem;
+  }
+  section h2 {
+    font-size: 2.5rem;
+  }
+  section p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+  header.masthead h2 {
+    font-size: 2.75rem;
+  }
+  section h2 {
+    font-size: 3rem;
+  }
+  section p {
+    font-size: 1.3rem;
+  }
+}
+
+/* =====================================================*/
