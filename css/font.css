@@ -1,3 +1,22 @@
+/* General font settings ===============================*/
+
+body {
+  font-family: 'Alegreya', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
 /* Font settings =======================================*/
 
 .main-title {
@@ -14,22 +33,18 @@
 
 .heading-white {
   color: rgba(255, 255, 255, 1);
-  font-weight: 700;
 }
 
 .paragraph-white {
   color: rgba(255, 255, 255, 1);
-  font-weight: 400;
 }
 
 .heading-black {
   color: rgba(0, 0, 0, 1);
-  font-weight: 700;
 }
 
 .paragraph-black {
   color: rgba(0, 0, 0, 1);
-  font-weight: 400;
 }
 
 /* Responsive font-size ================================*/
@@ -74,6 +89,9 @@ section p {
   section h2 {
     font-size: 2.5rem;
   }
+  section p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -87,7 +105,7 @@ section p {
     font-size: 3rem;
   }
   section p {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
   }
 }
 

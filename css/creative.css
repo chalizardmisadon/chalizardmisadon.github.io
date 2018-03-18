@@ -4,10 +4,6 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: 'Alegreya', 'Helvetica Neue', Arial, sans-serif;
-}
-
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -27,15 +23,6 @@ a {
 
 a:hover {
   color: #A32300;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Alegreya Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .bg-primary {
