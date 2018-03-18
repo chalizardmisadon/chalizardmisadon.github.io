@@ -25,19 +25,9 @@ a {
   transition: all 0.2s;
 }
 
-strong, .shadow {
-  color: #fff;
-}
-
-.shadow2 {
-  color: #fff;
-}
-
 a:hover {
   color: #A32300;
 }
-
-
 
 h1,
 h2,
