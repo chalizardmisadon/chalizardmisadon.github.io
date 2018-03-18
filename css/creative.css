@@ -46,10 +46,6 @@ h6 {
   background-color: #A32300 !important;
 }
 
-.text-faded2 {
-  color: rgba(255, 255, 255, 1);
-}
-
 .text-faded {
   color: rgba(255, 255, 255, .9);
 }
@@ -185,6 +181,11 @@ header.masthead hr {
   }
 }
 
+.res {
+  width: 22px;
+  height: auto;
+}
+
 @media (max-width: 500px) {
     header.masthead {
     -webkit-background-size: auto 100%;
@@ -194,42 +195,12 @@ header.masthead hr {
   }
 }
 
-
-
-.res {
-  width: 22px;
-  height: auto;
-}
-
-header.masthead h1 {
-  font-size: 2rem;
-}
-
-header.masthead p {
-  font-weight: 400;
-}
-
-@media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.75rem;
-  }
-}
-
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 4rem;
   }
 }
 
